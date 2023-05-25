@@ -16,22 +16,22 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("Application moved from 'viewDidLoad' to 'viewWillAppear' state into", #function)
+        print("ViewController moved from 'viewDidLoad' to 'viewWillAppear' state into", #function)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("Application moved from 'viewWillAppear' to 'viewDidAppear' state into", #function)
+        print("ViewController moved from 'viewWillAppear' to 'viewDidAppear' state into", #function)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        print("Application moved from 'viewDidAppear' to 'viewWillDisappear' state into", #function)
+        print("ViewController moved from 'viewDidAppear' to 'viewWillDisappear' state into", #function)
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("Application moved from 'viewWillDisappear' to 'viewDidDisappear' state into", #function)
+        print("ViewController moved from 'viewWillDisappear' to 'viewDidDisappear' state into", #function)
     }
 
 
